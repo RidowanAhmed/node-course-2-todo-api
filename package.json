@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "play": "node playground/mongodb-find.js"
+    "connect": "node playground/mongodb-connect.js",
+    "find": "node playground/mongodb-find.js",
+    "delete": "node playground/mongodb-delete.js",
+    "update": "node playground/mongodb-update.js"
   },
   "author": "Ridowan Ahmed",
   "license": "ISC",
